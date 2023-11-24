@@ -1,0 +1,103 @@
+---
+title: "my_first_rmd"
+author: "CZ"
+date: "2023-11-24"
+output: html_document
+---
+# header to be linkd {#my_text_header_link}
+
+
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+
+This is a bold text: **bold**, or __bold__.
+
+This is an italic text: *italic*, or _italic_.
+
+This is a superscript: test^1^
+
+This is a subscript: test ~2~
+
+This is an inline code:`code3`
+
+This is a mistake: ~~wrong~~
+
+Line breaks 1 - two spaces.    
+Line breaks 2 -\ and spaces \
+Line breaks 3 empty line between (before next line)
+
+for testing
+
+Test: no double space in the end of the line
+Q: will it work
+
+Challenge1
+
+## 1,500 scientists life the lid on reproducibility\
+##### Monya Baker\
+##### 25 May 2016
+
+\
+
+## Survey sheds light on the 'crisis' rocking research
+
+**More than 70% of researchers have tried and failed to reproduce another scientist's experiments**, and more than half have failed to reproduce their own experiments. Those are some of the telling figures that emerged from *Nature*'s survey of 1,576 researchers who took a brief online questionnaire on reproducibility in research.
+
+The data reveal sometimes-contradictory attitudes towards reproducibility. Although 52% of those surveyed agree that there is a significant 'crisis' of reproducibility, less than 31% think that failure to reproduce published results means that the result is probably wrong, and most say that they still trust the published literature.
+
+**Links**
+
+link this text to header [text](#my_text_header_link)
+
+link this text to the event timetable of bioinformatics training [Timetable](https://sites.google.com/cam.ac.uk/aldfnejwy294orhfcb4ytfqxzhb/home)
+
+**Footnotes**
+
+Add footnote 1 [^1]
+
+[^1]: This is footnote 1 to e showcase how to add a footnote
+
+**lists**
+
+This is my shopping list:  
+1. Item 1 - tomato.   
+2. Soya milk.   
+3. Ice cream.  
+
+Do not put a line above
+
+1. Veggies   
+    a.Cucumber.   
+            i. item1.   
+            ii. item3.    
+    b.Tomatoes.   
+2. Soya milk.   
+3. Ice cream.   
+
+* Department1
+* D2
+    * Group1
+    * Group2
+        * PhD 1
+        * PhD 2
+        
+        
+My to do list - Nov
+
+- [ ] undone
+- [x] done
+
+
+
+**logo**
+![R_logo](img/R_img.png)
+
+
+
+
+
+
+
